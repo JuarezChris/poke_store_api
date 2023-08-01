@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#shop{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+#pokeCard {
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+}
